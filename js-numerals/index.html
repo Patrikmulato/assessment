@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      var exports = {};
+    </script>
+    <script src="./numberToWord.js"></script>
     <title>JS numerals</title>
   </head>
   <body>
@@ -10,13 +14,16 @@
       Give me a number and I will show you the english phrase of that number
     </h1>
 
-    <form>
+    <form id="numberConverter">
       <label for="your_number">Your number:</label>
       <br />
-      <input type="number" id="your_number" name="your_number" />
+      <input type="number" id="your_number" name="your_number" required />
       <br />
       <br />
       <input type="submit" value="Submit" />
     </form>
+    <div>
+      <p>result: <span id="result"></span></p>
+    </div>
   </body>
 </html>

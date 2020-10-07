@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "jest-cli": "^26.4.2",
+    "npm": "^6.14.8"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
